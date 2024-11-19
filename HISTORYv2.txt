@@ -1,0 +1,4 @@
+Welcome! Let's do some math magic together! 
+1. 2 + 2 = 4 
+2. 3 * 3 = 9 
+3. 10 / 2 = 5 
