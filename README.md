@@ -32,4 +32,5 @@ import time, os
 while not os.path.exists("HISTORYv2.txt"):  
     time.sleep(1)  
 with open("HISTORYv2.txt", "r") as file:  
-    print(file.read())  
+    print(file.read()) 
+![Alt text for the image](UML_Diagram.png)
