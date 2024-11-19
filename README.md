@@ -5,24 +5,22 @@ Microservice Communication Contract
 This microservice reads equations from HISTORY.txt, processes them, and writes formatted results with a random greeting to HISTORYv2.txt.
 
 To Request Data:
-
 Ensure HISTORY.txt exists in the same directory.
 Write equations (one per line) into HISTORY.txt.
-To Receive Data:
 
+To Receive Data:
 Wait for the microservice to process HISTORY.txt.
 Open and read the generated HISTORYv2.txt.
 For example, if HISTORY.txt contains:
-
 2 + 2 = 4  
 3 * 3 = 9  
 10 / 2 = 5  
+
 The resulting HISTORYv2.txt might contain:
 Hello! Ready to solve problems? Let's get started!  
 1. 2 + 2 = 4  
 2. 3 * 3 = 9  
 3. 10 / 2 = 5  
-Example Python Calls:
 
 To request data:
 python
